@@ -1,0 +1,84 @@
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .project-list__item {
+    width: 100%;
+  }
+  
+  .project-list__button {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .project-list__button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .project-list__button--active {
+    background-color: #f3f4f6;
+  }
+  
+  .file-tree__item {
+    margin-top: 0.25rem;
+  }
+  
+  .file-tree__folder {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .file-tree__folder:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .file-tree__icon {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.2s;
+  }
+  
+  .file-tree__icon--rotated {
+    transform: rotate(90deg);
+  }
+  
+  .file-tree__file {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .file-tree__file:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .file-tree__file--active {
+    background-color: #f3f4f6;
+  }
+  
+  .file-tree__children {
+    margin-top: 0.25rem;
+  }

@@ -1,0 +1,97 @@
+.snapshot-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 20%;
+    overflow-y: auto;
+    background-color: white;
+    border-left: 1px solid #e5e7eb;
+  }
+  
+  .snapshot-panel__content {
+    padding: 1.5rem;
+  }
+  
+  .snapshot-panel__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .snapshot-panel__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .snapshot-panel__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .snapshot-panel__empty {
+    text-align: center;
+    color: #6b7280;
+    padding: 2rem 0;
+  }
+  
+  .snapshot-item {
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  .snapshot-item__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .snapshot-item__title {
+    font-weight: 500;
+    color: #1f2937;
+  }
+  
+  .snapshot-item__delete {
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: #6b7280;
+    transition: color 0.2s;
+  }
+  
+  .snapshot-item__delete:hover {
+    color: #4b5563;
+  }
+  
+  .snapshot-item__icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .snapshot-item__time {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  .snapshot-item__restore {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    color: #374151;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .snapshot-item__restore:hover {
+    background-color: #f3f4f6;
+  }
