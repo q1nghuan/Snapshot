@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## quick start
 ``` bash
-git clone https://github.com/q1nghuan/MultiSnap-Editor.git
+git clone https://github.com/q1nghuan/Snapshot.git
 cd MultiSnap-Editor
 npm install
 npm start
