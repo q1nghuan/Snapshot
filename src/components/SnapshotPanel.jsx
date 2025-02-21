@@ -41,6 +41,7 @@ export function SnapshotPanel({ currentProject, currentNode, onUpdateFile }) {
 
   const restoreSnapshot = (snapshot) => {
     loadSnapshot(currentProject.id, snapshotRef.current.snapshotYdoc, snapshot.id);
+    alert("Snapshot restored successfully!");
   }
 
   const funcDeleteSnapshot = (name) => {

@@ -8,6 +8,7 @@ import * as Y from "yjs";
 import "../styles/FileEditor.css";
 import { WebsocketProvider } from 'y-websocket';
 import { useEffect, useRef } from "react";
+Quill.register('modules/cursors', QuillCursors); 
 
 export function FileEditor({ projectsDocs, project, currentNode, onUpdateProject, onCreateFile, onSelectNode }) {
   const [newItemName, setNewItemName] = useState("")

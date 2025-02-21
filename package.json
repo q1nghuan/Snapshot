@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "date-fns": "^4.1.0",
     "quill": "^2.0.3",
+    "quill-cursors": "^4.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-feather": "^2.0.10",
